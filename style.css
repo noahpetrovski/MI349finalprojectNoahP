@@ -23,10 +23,12 @@ header {
   align-items: center;
   max-width: 1000px;
   margin: 0 auto 40px;
+  padding: 0 20px;
 }
 
 .nav img {
-  height: 50px;
+  height: 70px;
+  margin-right: auto;
 }
 
 .nav ul {
