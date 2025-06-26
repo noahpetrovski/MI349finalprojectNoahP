@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Galactic Garage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+      <img src="images/galactic-garage-logo.png" alt="Galactic Garage Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>Contact Galactic Garage</h1>
+    <p>Request a quote or ask us anything about our ships.</p>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+          <option value="buy">Buy</option>
+          <option value="sell">Sell</option>
+          <option value="custom">Custom Build</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Galactic Garage — All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
